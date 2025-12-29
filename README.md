@@ -3,9 +3,9 @@
 Quick start
 
 1) Install deps
-
+```
 pip install -r requirments.txt
-
+```
 2) Run
 
 Defaults to "weth_usdc" pool
@@ -15,7 +15,7 @@ python .\main.py
 
 Select a pool from weth_usdc, weth_usdt, weth_wbtc, linea_usdc, linea_usdc_low_tvl
 ```
-ACTIVE_POOL="weth_usdc" python .\main.py
+ACTIVE_POOL="weth_usdc" python ./main.py
 ```
 
 Check `config.py` for pool keys and endpoints. Logs write to `arb_opportunities_<pool>.log` and `arb_best_trade_<pool>.log`.
