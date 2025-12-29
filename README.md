@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 Defaults to "weth_usdc" pool
 ```
-python .\main.py
+python ./main.py
 ```
 
 Select a pool from weth_usdc, weth_usdt, weth_wbtc, linea_usdc, linea_usdc_low_tvl
