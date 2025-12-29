@@ -116,7 +116,7 @@ def format_opportunity(
     }
 
 # Load & cache byte call data for set token_in + tick_spacing + token_out
-@lru_cache(maxsize=1)
+@lru_cache(maxsize=2)
 def encode_v3_path(token_in: str, token_out: str, tick_spacing: int) :
     token_in_bytes = bytes.fromhex(Web3.to_checksum_address(token_in)[2:])
     token_out_bytes = bytes.fromhex(Web3.to_checksum_address(token_out)[2:])
