@@ -4,7 +4,7 @@ Quick start
 
 1) Install deps
 ```
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 2) Run
 
